@@ -28,6 +28,9 @@ li:hover {
 /* nav classes */
 .logo {
     float: left;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-weight: bold;
 }
 
 /* Styling for profile Card */
@@ -42,7 +45,7 @@ li:hover {
     font-family: Arial, Helvetica, sans-serif;
     top: 0;
     min-height: 55vh;
-    padding-top: 35vh;
+    padding-top: 25vh;
     background-color: rgb(6, 50, 68);
 }
 .title {
@@ -84,5 +87,9 @@ h1 {
 /* Solid class attached on scroll past first section */
 .solid {
     background-color: rgb(6, 50, 68);
-    transition: color 1s ease 0s;
+    transition: color 1.5s ease 0s;
+}
+/* styling for about section */
+#about {
+    color: black;
 }
